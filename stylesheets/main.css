@@ -1,13 +1,23 @@
+html, body {height: 100%;}
+
 body {
 	background: white;
-	margin: 50px;
+	margin: 0;
 	font-family: Times, serif;
 	font-size: 50px;
 	color: black;
 	transition: 1s;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+main {
+	margin: 50px;
 }
 
 h1 {
+	margin: 0;
 	font-size: 100px;
 }
 
@@ -32,6 +42,10 @@ h1 {
 	background: #03C76F;
 	color: white;
 	transition: 5s;
+}
+
+.ad {
+	overflow: hidden;
 }
 
 @media screen and (max-width: 800px) {
